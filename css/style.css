@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+a, p{
+    color: #000000;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+h2{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+/* LOGIN */
+
+.login_header{
+    height: 10vh;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+.logo_header{
+    width: 70%;
+}
+
+.logo_header img{
+    height: 100px;
+}
+
+.container_header{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px 20px;
+}
+
+.language_header{
+    padding-top: 10px;
+}
+
+.btn_header a{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.login{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.welcome_text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.welcome_text h1{
+    width: 75%;
+}
+
+.welcome_text h2{
+    padding-top: 13px;
+    width: 75%;
+}
+
+.input_login{
+    margin-top: 46px;
+    font-size: 10px;    
+}
+
+.email_login{
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.email_login input, .password_login input{
+    box-sizing: border-box;
+    height: 45px;
+    width: 600px;
+    border: 1px solid #E6EAEF;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.password_login{
+    margin-top: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.password_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn a{
+    height: 40px;
+    width: 200px;
+    border-radius: 21px;
+    background-color: #49ABF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 13px;
+}
+
+
+
+
+/* APP OVERSIGT/APP OVERVIEW */
+
+
+
+.page_content{
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    padding: 0 290px;
+    justify-content: center;
+}
+
+.app_overview{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.app{
+    width: 412.45px;
+    height: 188px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    margin: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app_container{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.app_logo{
+    height: 64px;
+    width: auto;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.1);
+    margin-right: 15px;
+}
+
+.app_logo img{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.app_info{
+
+}
+
+.app_info h4{
+    padding-top: 14px;
+}
+
+.app_device{
+    margin-left: 20px;
+}
+
+.app_footer{
+    border-top: 1px solid rgba(0,0,0,0.12);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.app_footer_container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.fa-pen{
+    margin-left: 10px;
+}
+
+
+
+
+
+/* INDSTILLINGER/SETINGS */
+
+.settings_content{
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    padding: 0 290px;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.settings_border{
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgba(156, 156, 156, 0.5);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.settings_border:hover{
+    box-shadow: 0 4px 20px 8px rgba(0,0,0,0.1);
+}
+
+.settings_profile{
+    margin-right: 35px;
+}
+
+.settings_profile h1, .settings_profile p, .settings_return h1, .settings_return p{
+    margin-top: 25px;
+}
+
+.settings_return{
+    margin-left: 35px;
+}
+
+
+
+
+
+/* VORES PRODUKTER/OUR PRODUCTS */
+
+.product_container_p{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.product_container_c h1{
+    width: 40%;
+    margin-left: 6%;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 2%;
+}
+
+.product_container_c{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.redirect-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.payroll, .time, .expense, .numbers{
+    height: 171px;
+    width: 510px;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.payroll{
+    background-image: url(https://zenegy.com/media/g4ug5ufj/payroll_top_banner.jpg?format=webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.time{
+    background-image: url(https://zenegy.com/media/pi1ayyt3/time-cover-2x.jpg?format=webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.time img{
+    width: 48px;
+    height: 48px;
+}
+
+.expense{
+    background-image: url(https://zenegy.com/media/1snb0oud/expense-header-2x.jpg?format=webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.numbers{
+    background-image: url(https://zenegy.com/media/qrogr4u2/numbers-header-2x.jpg?format=webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/* PROFIL/PROFILE */
+
+.profile_outline, .profile_edit_confirm_outline{
+    height: 311px;
+    width: 750px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 20px 8px rgba(0,0,0,0.1);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_header{
+    height: 50px;
+    width: 750px;
+    background: #D8D8D8;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.profile_content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile_name_input, .profile_email_input{
+    padding-bottom: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.profile_name_input h2, .profile_email_input h2{
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.profile_name_input input, .profile_email_input input{
+    box-sizing: border-box;
+    height: 45px;
+    width: 475px;
+    border: 1px solid #B5B5B5;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.profile_footer{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-top: 1px solid rgba(0,0,0,0.12);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile_footer a{
+    width: auto;
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    padding: 10px 45px;
+}
+
+.profile_update_email{
+    border: 1px solid #2DAAE5;
+    color:  #2DAAE5;
+}
+
+.profile_save{
+    background-color: #2DAAE5;
+    color: #fff;
+}
+
+
+
+/* OPDATER EMAIL/UPDATE EMAIL */
+
+.profile_edit_outline{
+    height: 236px;
+    width: 750px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 20px 8px rgba(0,0,0,0.1);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_edit_email_input{
+    padding-bottom: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile_edit_email_input h2{
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.profile_edit_email_input input{
+    box-sizing: border-box;
+    height: 45px;
+    width: 475px;
+    border: 1px solid #B5B5B5;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.profile_edit_email_steps{
+    padding: 20px;
+    border-top: 1px solid rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile_edit_email_steps a{
+    color: #2DAAE5;
+}
+
+/* REDIGER APP/EDIT APP */
+
+.edit_app_background{
+    width: 1050px;
+    height: 550px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    box-shadow: 0 2px 62px 15px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.edit_app_header{
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.edit_app_header ul{
+    display: flex;
+}
+
+.edit_app_header li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.edit_app_header li:hover{
+    background: #D8D8D8;
+}
+
+.edit_app_header i{
+    padding-right: 10px;
+}
+
+.edit_app_content{
+    height: 100%;
+    padding: 30px;
+}
+
+.edit_app_company_name, .edit_app_slogan, .edit_app_url{
+    margin-bottom: 30px;
+}
+
+.edit_app_company_name input, .edit_app_slogan input, .edit_app_url input, .edit_app_product_name input, .edit_app_platform input, .edit_app_category input, .edit_app_manchet_text input{
+    box-sizing: border-box;
+    height: 45px;
+    width: 500px;
+    border: 1px solid #E6EAEF;
+    border-radius: 8px;
+}
+
+.edit_app_company_name h2, .edit_app_slogan h2, .edit_app_url h2, .edit_app_product_name h2, .edit_app_platform h2, .edit_app_category h2, .edit_app_manchet_text h2{
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+
+.edit_app_teaser_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.edit_app_platform_dropdown{
+    height: 45px;
+    width: 215px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.edit_app_app_logo{
+    
+}
+
+
+
+
+.edit_app_footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit_app_footer a{
+    width: auto;
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 45px;
+}
+
+
+
+
+
+
+
+
+.footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a{
+    text-decoration: underline;
+}
